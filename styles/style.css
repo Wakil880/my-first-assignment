@@ -12,6 +12,7 @@
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
     
 }
 .banner-text-container{
@@ -67,15 +68,17 @@ justify-content: center;
 display: block;
 justify-content: center;
 margin-block: 0px;
+margin-top: 0px;
 }
 #offer{
     color: #F00;
 text-align: center;
-margin-top: 10px;
-font-size: 74px;
+margin-top: 0px;
+font-size: 64px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-bottom: 0px;
 }
 #deals{
     color: #F00;
@@ -84,6 +87,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin-top: 5px;
+margin-bottom: 0px;
 }
 #categories{
     color: #070211;
@@ -92,11 +97,53 @@ font-size: 38px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-top: 5px;
 }
 #first-image{
     width: 500px;
 height: 300px;
 flex-shrink: 0;
 justify-content: center;
-margin-left: 350px;
+margin-left: 380px;
+margin-bottom: 0px;
+}
+/*3rd section styles*/
+.third-section{
+    background-image: url('../resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+}
+.third-section-text-container{
+display: block;
+justify-content: center;
+margin-top: 0px;
+margin-left: 400px;
+margin-top: 0px;
+padding-top: 200px;
+
+}
+.party-heading{
+justify-content: center;
+width: 350px;
+color: #FFF;
+font-family: Merriweather;
+font-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px;
+
+}
+p{
+    color: red;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+
+}
+.first-button{
+    margin-left: 50px;
 }
