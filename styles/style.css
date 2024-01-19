@@ -59,3 +59,44 @@ margin-top: 0px;
 }
 
 /*second section task*/
+.second-section{
+display: block;
+justify-content: center;
+}
+.second-section-text-container{
+display: block;
+justify-content: center;
+margin-block: 0px;
+}
+#offer{
+    color: #F00;
+text-align: center;
+margin-top: 10px;
+font-size: 74px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#deals{
+    color: #F00;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#categories{
+    color: #070211;
+text-align: center;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#first-image{
+    width: 500px;
+height: 300px;
+flex-shrink: 0;
+justify-content: center;
+margin-left: 350px;
+}
